@@ -1,0 +1,71 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+
+# Temporary files
+.tmp/
+temp/
+.tmp-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: PM2 process files
+.pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: debug folder
+debug/
+
+# Optional: local database files
+data/
+*.sqlite
+*.sqlite3
+
+# Optional: jest cache
+jest-cache/
+jest-transform-cache/
+
+# Optional: Prisma
+prisma/*.db
+prisma/migrations/*-tmp
